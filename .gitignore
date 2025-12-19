@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (do not commit raw data)
+data/*.csv
+data/*.parquet
+data/*.xlsx
+
+# Plot/outputs (optional)
+*.png
+*.pdf
