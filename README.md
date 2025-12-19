@@ -11,14 +11,14 @@ Key choices:
 - Stability check: split sample into three subperiods
 
 ## Structure
-- `notebooks/`: main Jupyter notebook (analysis + results)
-- `src/solar_market_risk.py`: reusable functions used by the notebook
+- `code/`: main Jupyter notebook (analysis + results)
+- `code/solar_market_risk.py`: reusable functions used by the notebook
 - `requirements.txt`: dependencies
 - `data/`: placeholder (no raw data committed)
 
 ## Run
 1. Install dependencies: `pip install -r requirements.txt`
-2. Open and run the notebook in `notebooks/`
+2. Open and run the notebook in `code/`
 
 ## Disclaimer
 For research and educational purposes only. Not investment advice.
